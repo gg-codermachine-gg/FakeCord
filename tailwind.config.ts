@@ -7,14 +7,19 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      "dark-gray": "#202225",
-      "middle-gray": "#2F3136",
-      "light-gray" :"#36393F",
-      "green" : "#3BA55D",
-      "userProfileGrey" : "#292B2F"
-    },
     extend: {
+      colors: {
+        "dark-gray": "#202225",
+        "middle-gray": "#2F3136",
+        "light-gray" :"#36393F",
+        "green" : "#3BA55D",
+        "userProfileGrey" : "#292B2F",
+        "hoverColor" : "#393C43",
+        "textColor" : "#8E9297;"
+      },
+      boxShadow: {
+        'bottom': '0 35px 60px 0px #202225',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
