@@ -77,9 +77,9 @@ function OptionsButtons({}) {
 
 function FriendsList({}) {
   return (
-    <div className="h-[47.3rem] flex flex-row items-center">
-      <div className="flex flex-row gap-[4rem] h-2 w-full pl-3">
-        <h1 className="text-gray-600  text-md font-bold tracking-tight ">
+    <div className="h-[47.3rem] flex flex-row items-center relative">
+      <div className="flex flex-row gap-[4rem] h-2 w-full pl-3 relative bottom-[22rem] ">
+        <h1 className="text-gray-600  text-sm font-bold tracking-tight mt-[.3rem] hover:text-slate-200 transition ease-{400ms}">
           DIRECT MESSAGES
         </h1>
         <button className="mt-1 mr-3">
@@ -90,6 +90,9 @@ function FriendsList({}) {
             height={15}
           />
         </button>
+      </div>
+      <div>
+        <div>yeah</div>
       </div>
     </div>
   );
