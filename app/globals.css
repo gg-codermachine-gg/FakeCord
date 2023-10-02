@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+  ::-webkit-scrollbar {
+    width: 0; /* Set width to 0 to hide the scrollbar */
+  }

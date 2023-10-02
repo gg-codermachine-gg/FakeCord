@@ -15,7 +15,8 @@ const config: Config = {
         "green" : "#3BA55D",
         "userProfileGrey" : "#292B2F",
         "hoverColor" : "#393C43",
-        "textColor" : "#8E9297;"
+        "textColor" : "#8E9297",
+        "discordBlue" : "#5865F2"
       },
       boxShadow: {
         'bottom': '0 35px 60px 0px #202225',
